@@ -1,7 +1,7 @@
 // Based on "webdock"'s Jenkinsfile
 // hope it goes to local-docker/vbcf/training/pyexample
 def towerJobs = [
-  master: [jobName:"App Training Website", extraVars: "app_generic_image_tag: master"],
+  master: [jobName:"Docker Python Example", extraVars: "app_generic_image_tag: master"],
 ]
 
 buildDockerImage([
