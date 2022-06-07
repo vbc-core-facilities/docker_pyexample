@@ -5,7 +5,7 @@ def towerJobs = [
 buildDockerImage([
   imageName: "pyexample",
   pushRegistry: "docker.artifactory.imp.ac.at",
-  pushRegistryNamespace: "vbcf/training",
+  pushRegistryNamespace: "hpctraining",
   pushBranches: ["master"],
   tower: towerJobs
 ])
